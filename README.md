@@ -116,6 +116,9 @@ trxlog2html -i TestResults/test_results.trx -o ./TestReport/test_results.html
 
 
 **Report**:
+https://github.com/nightwish2016/Homework_API_TEST/blob/main/ApiTests/TestReport/test_results.html
+https://github.com/nightwish2016/Homework_API_TEST/blob/main/report.png
+
 
 
 
