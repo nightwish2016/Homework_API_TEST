@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="7313b209-b25c-46fe-ba3e-2d2c11c047e4" name="Kevin@LAPTOP-O0TPN0MB 2025-07-25 19:01:43" runUser="LAPTOP-O0TPN0MB\Kevin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-07-25T19:01:43.5825629+08:00" queuing="2025-07-25T19:01:43.5825633+08:00" start="2025-07-25T19:01:40.4605451+08:00" finish="2025-07-25T19:01:43.7170282+08:00" />
+  <TestSettings name="default" id="58cefe1e-440c-4987-b4f3-7704a594c957">
+    <Deployment runDeploymentRoot="Kevin_LAPTOP-O0TPN0MB_2025-07-25_19_01_43" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="bf84ce81-a8b5-4fb3-95e4-59cf6eefa3ad" testId="ae69dde0-807c-abe3-2af5-b0c0caeeb880" testName="CreateTodoItem_ShouldReturnCreated (4,Swimming,False)" computerName="LAPTOP-O0TPN0MB" duration="00:00:00.0135313" startTime="2025-07-25T19:01:43.1750427+08:00" endTime="2025-07-25T19:01:43.1891851+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf84ce81-a8b5-4fb3-95e4-59cf6eefa3ad" />
+    <UnitTestResult executionId="c02ffde3-1777-472d-898f-5f5c32718746" testId="3d3bf61b-144f-66c9-e4d5-f70abbc4e7eb" testName="DeleteTodoItem_ShouldReturnSuccess (1,True)" computerName="LAPTOP-O0TPN0MB" duration="00:00:00.0337196" startTime="2025-07-25T19:01:43.4899821+08:00" endTime="2025-07-25T19:01:43.5259182+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c02ffde3-1777-472d-898f-5f5c32718746" />
+    <UnitTestResult executionId="278f7e6c-9410-4849-949f-07b00b934e9d" testId="ce236c9a-f7ea-c240-540c-2d0ccfe2c169" testName="GetTodoItemByNonExistentId_ShouldReturnNotFound (999)" computerName="LAPTOP-O0TPN0MB" duration="00:00:00.0203595" startTime="2025-07-25T19:01:43.1404116+08:00" endTime="2025-07-25T19:01:43.1612592+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="278f7e6c-9410-4849-949f-07b00b934e9d" />
+    <UnitTestResult executionId="02f68ac2-e422-452d-aec8-d33031faa244" testId="50128f5c-b0cd-fab3-7318-4b34c7783ab6" testName="GetAllTodoItems_ShouldReturnExpectedList (1,learning english,True)" computerName="LAPTOP-O0TPN0MB" duration="00:00:00.8021115" startTime="2025-07-25T19:01:42.1528759+08:00" endTime="2025-07-25T19:01:43.0085654+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02f68ac2-e422-452d-aec8-d33031faa244">
+      <Output>
+        <StdOut>Warning:&#xD;
+     The component "Fluent Assertions" is governed by the rules defined in the Xceed License Agreement and&#xD;
+     the Xceed Fluent Assertions Community License. You may use Fluent Assertions free of charge for&#xD;
+     non-commercial use only. An active subscription is required to use Fluent Assertions for commercial use.&#xD;
+&#xD;
+     Please contact Xceed Sales mailto:sales@xceed.com to acquire a subscription at a very low cost.&#xD;
+&#xD;
+     A paid commercial license supports the development and continued increasing support of&#xD;
+     Fluent Assertions users under both commercial and community licenses. Help us&#xD;
+     keep Fluent Assertions at the forefront of unit testing.&#xD;
+&#xD;
+     For more information, visit https://xceed.com/products/unit-testing/fluent-assertions/&#xD;
+&#xD;
+
+
+Debug Trace:
+     Warning:&#xD;
+     The component "Fluent Assertions" is governed by the rules defined in the Xceed License Agreement and&#xD;
+     the Xceed Fluent Assertions Community License. You may use Fluent Assertions free of charge for&#xD;
+     non-commercial use only. An active subscription is required to use Fluent Assertions for commercial use.&#xD;
+&#xD;
+     Please contact Xceed Sales mailto:sales@xceed.com to acquire a subscription at a very low cost.&#xD;
+&#xD;
+     A paid commercial license supports the development and continued increasing support of&#xD;
+     Fluent Assertions users under both commercial and community licenses. Help us&#xD;
+     keep Fluent Assertions at the forefront of unit testing.&#xD;
+&#xD;
+     For more information, visit https://xceed.com/products/unit-testing/fluent-assertions/</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cc0cee20-dde1-4130-a68c-8a1e62016bf9" testId="995e74b9-aed1-3cfe-9fc2-05909b36a696" testName="GetTodoItemById_ShouldReturnExpectedItem (1,learning english,True)" computerName="LAPTOP-O0TPN0MB" duration="00:00:00.0366338" startTime="2025-07-25T19:01:43.0678178+08:00" endTime="2025-07-25T19:01:43.1048530+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc0cee20-dde1-4130-a68c-8a1e62016bf9" />
+    <UnitTestResult executionId="ee93f43c-501c-470c-8c83-e261a330a575" testId="24907e45-0d96-023f-5788-45dcff990cc5" testName="CreateTodoItem_ShouldReturnCreated (5,Reading,True)" computerName="LAPTOP-O0TPN0MB" duration="00:00:00.0315852" startTime="2025-07-25T19:01:43.1892702+08:00" endTime="2025-07-25T19:01:43.2211815+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee93f43c-501c-470c-8c83-e261a330a575" />
+    <UnitTestResult executionId="d9448aad-7523-45be-b642-62c44f87e1cd" testId="d55ad242-b851-c691-4972-dae6f86bc5e8" testName="CreateTodoItem_WithoutId_ShouldAutoIncrementId" computerName="LAPTOP-O0TPN0MB" duration="00:00:00.0345483" startTime="2025-07-25T19:01:43.2212567+08:00" endTime="2025-07-25T19:01:43.2560551+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9448aad-7523-45be-b642-62c44f87e1cd" />
+    <UnitTestResult executionId="cb4178e4-5d51-4d25-8818-97f612a8ac84" testId="f4193eaa-6000-6daf-c36c-74c568b5d89e" testName="GetTodoItemById_ShouldReturnExpectedItem (2,AI website creation,True)" computerName="LAPTOP-O0TPN0MB" duration="00:00:00.0350487" startTime="2025-07-25T19:01:43.1049422+08:00" endTime="2025-07-25T19:01:43.1403298+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb4178e4-5d51-4d25-8818-97f612a8ac84" />
+    <UnitTestResult executionId="a65bd879-07da-4a54-b2a1-5ea827616d60" testId="23664825-1c69-6ad1-51c5-fc259a66c8b8" testName="UpdateNonExistentTodoItem_ShouldReturnNotFound (888,Missing Item)" computerName="LAPTOP-O0TPN0MB" duration="00:00:00.0359752" startTime="2025-07-25T19:01:43.4014994+08:00" endTime="2025-07-25T19:01:43.4378875+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a65bd879-07da-4a54-b2a1-5ea827616d60" />
+    <UnitTestResult executionId="00dddbda-05b6-4959-81a3-d7637d80c793" testId="87373eef-1135-ffed-6a97-1488d5b188c3" testName="DeleteNonExistentTodoItem_ShouldReturnNotFound (999,False)" computerName="LAPTOP-O0TPN0MB" duration="00:00:00.0611305" startTime="2025-07-25T19:01:43.5260229+08:00" endTime="2025-07-25T19:01:43.5875879+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00dddbda-05b6-4959-81a3-d7637d80c793" />
+    <UnitTestResult executionId="67652a72-66f5-4002-8b9b-d6213623d3bf" testId="9a51719d-7cc8-e047-a198-af3a2033f55a" testName="UpdateNonExistentTodoItem_ShouldReturnNotFound (777,Not Found Item)" computerName="LAPTOP-O0TPN0MB" duration="00:00:00.0514787" startTime="2025-07-25T19:01:43.4380255+08:00" endTime="2025-07-25T19:01:43.4898905+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67652a72-66f5-4002-8b9b-d6213623d3bf" />
+    <UnitTestResult executionId="2ce6f386-805e-421f-9309-4691399531c6" testId="2e23982d-f8f8-fed4-81cb-6a70e2f25b09" testName="GetAllTodoItemsWhenEmpty_ShouldReturnEmptyList" computerName="LAPTOP-O0TPN0MB" duration="00:00:00.0102290" startTime="2025-07-25T19:01:43.1613531+08:00" endTime="2025-07-25T19:01:43.1749312+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ce6f386-805e-421f-9309-4691399531c6" />
+    <UnitTestResult executionId="5a62737e-db43-430c-86f3-4099503523b8" testId="058b4b19-3bed-f1f4-ecb6-17cfb1b073e8" testName="GetAllTodoItems_ShouldReturnExpectedList (2,AI website creation,True)" computerName="LAPTOP-O0TPN0MB" duration="00:00:00.0478635" startTime="2025-07-25T19:01:43.0183942+08:00" endTime="2025-07-25T19:01:43.0667311+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a62737e-db43-430c-86f3-4099503523b8" />
+    <UnitTestResult executionId="ccc9b808-9c11-42af-b9ba-e64d87dc3c20" testId="7b9e3ee0-542b-2003-1cd9-4a9c8b1d90d1" testName="UpdateNonExistentTodoItem_ShouldReturnNotFound (999,Non-existent Item)" computerName="LAPTOP-O0TPN0MB" duration="00:00:00.0307095" startTime="2025-07-25T19:01:43.3703643+08:00" endTime="2025-07-25T19:01:43.4013752+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ccc9b808-9c11-42af-b9ba-e64d87dc3c20" />
+    <UnitTestResult executionId="3296f7d8-5b2b-48b3-b035-c87fda60689f" testId="76624d48-e5f1-b44b-211d-3afc53e2d867" testName="UpdateTodoItem_ShouldReturnSuccess (2,learning english2,True)" computerName="LAPTOP-O0TPN0MB" duration="00:00:00.0243091" startTime="2025-07-25T19:01:43.3452623+08:00" endTime="2025-07-25T19:01:43.3702788+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3296f7d8-5b2b-48b3-b035-c87fda60689f" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="GetTodoItemByNonExistentId_ShouldReturnNotFound (999)" storage="c:\users\kevin\desktop\kevindoc\github-repo\c#practice\backend_automation\apitests\bin\debug\net7.0\apitests.dll" id="ce236c9a-f7ea-c240-540c-2d0ccfe2c169">
+      <Execution id="278f7e6c-9410-4849-949f-07b00b934e9d" />
+      <TestMethod codeBase="C:\Users\Kevin\Desktop\kevindoc\github-repo\c#Practice\backend_Automation\ApiTests\bin\Debug\net7.0\ApiTests.dll" adapterTypeName="executor://mstestadapter/v2" className="ApiTests.TodoItemsGetTests" name="GetTodoItemByNonExistentId_ShouldReturnNotFound" />
+    </UnitTest>
+    <UnitTest name="CreateTodoItem_ShouldReturnCreated (5,Reading,True)" storage="c:\users\kevin\desktop\kevindoc\github-repo\c#practice\backend_automation\apitests\bin\debug\net7.0\apitests.dll" id="24907e45-0d96-023f-5788-45dcff990cc5">
+      <Execution id="ee93f43c-501c-470c-8c83-e261a330a575" />
+      <TestMethod codeBase="C:\Users\Kevin\Desktop\kevindoc\github-repo\c#Practice\backend_Automation\ApiTests\bin\Debug\net7.0\ApiTests.dll" adapterTypeName="executor://mstestadapter/v2" className="ApiTests.TodoItemsPostTests" name="CreateTodoItem_ShouldReturnCreated" />
+    </UnitTest>
+    <UnitTest name="CreateTodoItem_WithoutId_ShouldAutoIncrementId" storage="c:\users\kevin\desktop\kevindoc\github-repo\c#practice\backend_automation\apitests\bin\debug\net7.0\apitests.dll" id="d55ad242-b851-c691-4972-dae6f86bc5e8">
+      <Execution id="d9448aad-7523-45be-b642-62c44f87e1cd" />
+      <TestMethod codeBase="C:\Users\Kevin\Desktop\kevindoc\github-repo\c#Practice\backend_Automation\ApiTests\bin\Debug\net7.0\ApiTests.dll" adapterTypeName="executor://mstestadapter/v2" className="ApiTests.TodoItemsPostTests" name="CreateTodoItem_WithoutId_ShouldAutoIncrementId" />
+    </UnitTest>
+    <UnitTest name="GetAllTodoItemsWhenEmpty_ShouldReturnEmptyList" storage="c:\users\kevin\desktop\kevindoc\github-repo\c#practice\backend_automation\apitests\bin\debug\net7.0\apitests.dll" id="2e23982d-f8f8-fed4-81cb-6a70e2f25b09">
+      <Execution id="2ce6f386-805e-421f-9309-4691399531c6" />
+      <TestMethod codeBase="C:\Users\Kevin\Desktop\kevindoc\github-repo\c#Practice\backend_Automation\ApiTests\bin\Debug\net7.0\ApiTests.dll" adapterTypeName="executor://mstestadapter/v2" className="ApiTests.TodoItemsGetTests" name="GetAllTodoItemsWhenEmpty_ShouldReturnEmptyList" />
+    </UnitTest>
+    <UnitTest name="UpdateNonExistentTodoItem_ShouldReturnNotFound (999,Non-existent Item)" storage="c:\users\kevin\desktop\kevindoc\github-repo\c#practice\backend_automation\apitests\bin\debug\net7.0\apitests.dll" id="7b9e3ee0-542b-2003-1cd9-4a9c8b1d90d1">
+      <Execution id="ccc9b808-9c11-42af-b9ba-e64d87dc3c20" />
+      <TestMethod codeBase="C:\Users\Kevin\Desktop\kevindoc\github-repo\c#Practice\backend_Automation\ApiTests\bin\Debug\net7.0\ApiTests.dll" adapterTypeName="executor://mstestadapter/v2" className="ApiTests.TodoItemsPutTests" name="UpdateNonExistentTodoItem_ShouldReturnNotFound" />
+    </UnitTest>
+    <UnitTest name="GetAllTodoItems_ShouldReturnExpectedList (2,AI website creation,True)" storage="c:\users\kevin\desktop\kevindoc\github-repo\c#practice\backend_automation\apitests\bin\debug\net7.0\apitests.dll" id="058b4b19-3bed-f1f4-ecb6-17cfb1b073e8">
+      <Execution id="5a62737e-db43-430c-86f3-4099503523b8" />
+      <TestMethod codeBase="C:\Users\Kevin\Desktop\kevindoc\github-repo\c#Practice\backend_Automation\ApiTests\bin\Debug\net7.0\ApiTests.dll" adapterTypeName="executor://mstestadapter/v2" className="ApiTests.TodoItemsGetTests" name="GetAllTodoItems_ShouldReturnExpectedList" />
+    </UnitTest>
+    <UnitTest name="GetAllTodoItems_ShouldReturnExpectedList (1,learning english,True)" storage="c:\users\kevin\desktop\kevindoc\github-repo\c#practice\backend_automation\apitests\bin\debug\net7.0\apitests.dll" id="50128f5c-b0cd-fab3-7318-4b34c7783ab6">
+      <Execution id="02f68ac2-e422-452d-aec8-d33031faa244" />
+      <TestMethod codeBase="C:\Users\Kevin\Desktop\kevindoc\github-repo\c#Practice\backend_Automation\ApiTests\bin\Debug\net7.0\ApiTests.dll" adapterTypeName="executor://mstestadapter/v2" className="ApiTests.TodoItemsGetTests" name="GetAllTodoItems_ShouldReturnExpectedList" />
+    </UnitTest>
+    <UnitTest name="UpdateNonExistentTodoItem_ShouldReturnNotFound (777,Not Found Item)" storage="c:\users\kevin\desktop\kevindoc\github-repo\c#practice\backend_automation\apitests\bin\debug\net7.0\apitests.dll" id="9a51719d-7cc8-e047-a198-af3a2033f55a">
+      <Execution id="67652a72-66f5-4002-8b9b-d6213623d3bf" />
+      <TestMethod codeBase="C:\Users\Kevin\Desktop\kevindoc\github-repo\c#Practice\backend_Automation\ApiTests\bin\Debug\net7.0\ApiTests.dll" adapterTypeName="executor://mstestadapter/v2" className="ApiTests.TodoItemsPutTests" name="UpdateNonExistentTodoItem_ShouldReturnNotFound" />
+    </UnitTest>
+    <UnitTest name="UpdateNonExistentTodoItem_ShouldReturnNotFound (888,Missing Item)" storage="c:\users\kevin\desktop\kevindoc\github-repo\c#practice\backend_automation\apitests\bin\debug\net7.0\apitests.dll" id="23664825-1c69-6ad1-51c5-fc259a66c8b8">
+      <Execution id="a65bd879-07da-4a54-b2a1-5ea827616d60" />
+      <TestMethod codeBase="C:\Users\Kevin\Desktop\kevindoc\github-repo\c#Practice\backend_Automation\ApiTests\bin\Debug\net7.0\ApiTests.dll" adapterTypeName="executor://mstestadapter/v2" className="ApiTests.TodoItemsPutTests" name="UpdateNonExistentTodoItem_ShouldReturnNotFound" />
+    </UnitTest>
+    <UnitTest name="DeleteNonExistentTodoItem_ShouldReturnNotFound (999,False)" storage="c:\users\kevin\desktop\kevindoc\github-repo\c#practice\backend_automation\apitests\bin\debug\net7.0\apitests.dll" id="87373eef-1135-ffed-6a97-1488d5b188c3">
+      <Execution id="00dddbda-05b6-4959-81a3-d7637d80c793" />
+      <TestMethod codeBase="C:\Users\Kevin\Desktop\kevindoc\github-repo\c#Practice\backend_Automation\ApiTests\bin\Debug\net7.0\ApiTests.dll" adapterTypeName="executor://mstestadapter/v2" className="ApiTests.TodoItemsDeleteTests" name="DeleteNonExistentTodoItem_ShouldReturnNotFound" />
+    </UnitTest>
+    <UnitTest name="DeleteTodoItem_ShouldReturnSuccess (1,True)" storage="c:\users\kevin\desktop\kevindoc\github-repo\c#practice\backend_automation\apitests\bin\debug\net7.0\apitests.dll" id="3d3bf61b-144f-66c9-e4d5-f70abbc4e7eb">
+      <Execution id="c02ffde3-1777-472d-898f-5f5c32718746" />
+      <TestMethod codeBase="C:\Users\Kevin\Desktop\kevindoc\github-repo\c#Practice\backend_Automation\ApiTests\bin\Debug\net7.0\ApiTests.dll" adapterTypeName="executor://mstestadapter/v2" className="ApiTests.TodoItemsDeleteTests" name="DeleteTodoItem_ShouldReturnSuccess" />
+    </UnitTest>
+    <UnitTest name="GetTodoItemById_ShouldReturnExpectedItem (2,AI website creation,True)" storage="c:\users\kevin\desktop\kevindoc\github-repo\c#practice\backend_automation\apitests\bin\debug\net7.0\apitests.dll" id="f4193eaa-6000-6daf-c36c-74c568b5d89e">
+      <Execution id="cb4178e4-5d51-4d25-8818-97f612a8ac84" />
+      <TestMethod codeBase="C:\Users\Kevin\Desktop\kevindoc\github-repo\c#Practice\backend_Automation\ApiTests\bin\Debug\net7.0\ApiTests.dll" adapterTypeName="executor://mstestadapter/v2" className="ApiTests.TodoItemsGetTests" name="GetTodoItemById_ShouldReturnExpectedItem" />
+    </UnitTest>
+    <UnitTest name="UpdateTodoItem_ShouldReturnSuccess (2,learning english2,True)" storage="c:\users\kevin\desktop\kevindoc\github-repo\c#practice\backend_automation\apitests\bin\debug\net7.0\apitests.dll" id="76624d48-e5f1-b44b-211d-3afc53e2d867">
+      <Execution id="3296f7d8-5b2b-48b3-b035-c87fda60689f" />
+      <TestMethod codeBase="C:\Users\Kevin\Desktop\kevindoc\github-repo\c#Practice\backend_Automation\ApiTests\bin\Debug\net7.0\ApiTests.dll" adapterTypeName="executor://mstestadapter/v2" className="ApiTests.TodoItemsPutTests" name="UpdateTodoItem_ShouldReturnSuccess" />
+    </UnitTest>
+    <UnitTest name="CreateTodoItem_ShouldReturnCreated (4,Swimming,False)" storage="c:\users\kevin\desktop\kevindoc\github-repo\c#practice\backend_automation\apitests\bin\debug\net7.0\apitests.dll" id="ae69dde0-807c-abe3-2af5-b0c0caeeb880">
+      <Execution id="bf84ce81-a8b5-4fb3-95e4-59cf6eefa3ad" />
+      <TestMethod codeBase="C:\Users\Kevin\Desktop\kevindoc\github-repo\c#Practice\backend_Automation\ApiTests\bin\Debug\net7.0\ApiTests.dll" adapterTypeName="executor://mstestadapter/v2" className="ApiTests.TodoItemsPostTests" name="CreateTodoItem_ShouldReturnCreated" />
+    </UnitTest>
+    <UnitTest name="GetTodoItemById_ShouldReturnExpectedItem (1,learning english,True)" storage="c:\users\kevin\desktop\kevindoc\github-repo\c#practice\backend_automation\apitests\bin\debug\net7.0\apitests.dll" id="995e74b9-aed1-3cfe-9fc2-05909b36a696">
+      <Execution id="cc0cee20-dde1-4130-a68c-8a1e62016bf9" />
+      <TestMethod codeBase="C:\Users\Kevin\Desktop\kevindoc\github-repo\c#Practice\backend_Automation\ApiTests\bin\Debug\net7.0\ApiTests.dll" adapterTypeName="executor://mstestadapter/v2" className="ApiTests.TodoItemsGetTests" name="GetTodoItemById_ShouldReturnExpectedItem" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="ae69dde0-807c-abe3-2af5-b0c0caeeb880" executionId="bf84ce81-a8b5-4fb3-95e4-59cf6eefa3ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d3bf61b-144f-66c9-e4d5-f70abbc4e7eb" executionId="c02ffde3-1777-472d-898f-5f5c32718746" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce236c9a-f7ea-c240-540c-2d0ccfe2c169" executionId="278f7e6c-9410-4849-949f-07b00b934e9d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50128f5c-b0cd-fab3-7318-4b34c7783ab6" executionId="02f68ac2-e422-452d-aec8-d33031faa244" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="995e74b9-aed1-3cfe-9fc2-05909b36a696" executionId="cc0cee20-dde1-4130-a68c-8a1e62016bf9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24907e45-0d96-023f-5788-45dcff990cc5" executionId="ee93f43c-501c-470c-8c83-e261a330a575" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d55ad242-b851-c691-4972-dae6f86bc5e8" executionId="d9448aad-7523-45be-b642-62c44f87e1cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4193eaa-6000-6daf-c36c-74c568b5d89e" executionId="cb4178e4-5d51-4d25-8818-97f612a8ac84" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23664825-1c69-6ad1-51c5-fc259a66c8b8" executionId="a65bd879-07da-4a54-b2a1-5ea827616d60" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87373eef-1135-ffed-6a97-1488d5b188c3" executionId="00dddbda-05b6-4959-81a3-d7637d80c793" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a51719d-7cc8-e047-a198-af3a2033f55a" executionId="67652a72-66f5-4002-8b9b-d6213623d3bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e23982d-f8f8-fed4-81cb-6a70e2f25b09" executionId="2ce6f386-805e-421f-9309-4691399531c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="058b4b19-3bed-f1f4-ecb6-17cfb1b073e8" executionId="5a62737e-db43-430c-86f3-4099503523b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b9e3ee0-542b-2003-1cd9-4a9c8b1d90d1" executionId="ccc9b808-9c11-42af-b9ba-e64d87dc3c20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76624d48-e5f1-b44b-211d-3afc53e2d867" executionId="3296f7d8-5b2b-48b3-b035-c87fda60689f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="15" executed="15" passed="15" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
